@@ -1,0 +1,22 @@
+$text_color: red
+@mixin box  
+    display: block
+    width: 250px
+    height: 200px
+    background-color: pink
+    
+h1  
+    color: red
+    font-size: 50px 
+h2  
+    color: green
+.block  
+    button 
+        @include box
+    background-color: black
+    h3
+        color: blue
+    &_color
+        background-color: white
+
+
